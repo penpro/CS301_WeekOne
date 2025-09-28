@@ -3,12 +3,7 @@ package com.example.cs301_weekone;
 /*
 Code won't run in command line while it's part of the package that's auto created by intellij
 TODO Figure out why
-Workaround, copy pasted into text file, save as Chapter1a.java
-rename class to Chapter1a
-open command prompt
-javac Chapter1a.java
-java Chapter1a.java
-works great
+Workaround, remove package, manually navigate inside command prompt, run javac/java commands in prompt
  */
 
 public class Chapter1 {

@@ -6,8 +6,7 @@ public class Chapter1a {
     }
 
     private static void printMessage(){
-        System.out.println("Hello, 
-				World");
+        System.out.println("Hello, World");
     }
 
 }
