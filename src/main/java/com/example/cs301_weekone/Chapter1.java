@@ -25,6 +25,10 @@ public class Chapter1 {
             System.out.println("Theta= " + inputTheta);
             trigIdentity1(inputTheta);
         }
+
+        // Quiz question 14
+        boolean bQuiz = ((Math.sqrt(2)*(Math.sqrt(2)) == 2));
+        System.out.println(bQuiz);
     }
 
     private static void printMessage(){
