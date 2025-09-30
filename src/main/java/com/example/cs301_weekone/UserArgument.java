@@ -1,3 +1,4 @@
+package com.example.cs301_weekone;
 
 public class UserArgument {
     public static void main(String[] args) {

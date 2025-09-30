@@ -1,5 +1,7 @@
 package com.example.cs301_weekone;
 
+import java.util.Random;
+
 /*
 Code won't run in command line while it's part of the package that's auto created by intellij
 TODO Figure out why
@@ -10,13 +12,28 @@ public class Chapter1 {
     public static void main(String[] args) {
 
         // 1.1.1 write a program that prints hello world 10 times
+        /*
         for (int i = 0; i<9; i++){
             printMessage();
+        }
+        */
+
+        // prints 20 examples of random input thetas all showing 1 as the output
+        // floating point rounding errors account for the slight mismatches
+        for(int i = 0 ; i < 20 ; i++ ){
+            double inputTheta = Math.random()*360;
+            System.out.println("Theta= " + inputTheta);
+            trigIdentity1(inputTheta);
         }
     }
 
     private static void printMessage(){
         System.out.println("Hello, World");
+    }
+
+    private static void trigIdentity1(double theta){
+        double sumOfSquares = (Math.sin(theta)*Math.sin(theta)) + (Math.cos(theta)*Math.cos(theta));
+        System.out.println(sumOfSquares);
     }
 
 }

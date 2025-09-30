@@ -50,3 +50,14 @@ Exercises
 
 1.1.6 Write program that can take in three args and print them out
     modified UserArgument to take in arbitrary number of arguments and print a hello string for each argument
+
+1.2.1   int t = a; b = t; a = b;
+    sets the value of t to the value of a, then the value of b to the value of t, then a to the value of b, in this case the last expression does nothing because the values are the same at this point
+
+1.2.2   trig identity program
+    including in Chapter1 class
+    floating point rounding errors account for the slight mismatches
+
+1.2.3   boolean logic output of (!(a && b) && (a || b) || ((a && b) || !(a || b)))
+!(a && b) && (a || b) will always evaluate to !(a && b)  
+    
