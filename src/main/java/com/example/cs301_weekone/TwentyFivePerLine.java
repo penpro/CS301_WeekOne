@@ -10,8 +10,8 @@ public class TwentyFivePerLine {
     public static void main(String[] args) {
         // I made it so it can be expanded to other counts
         // initial values
-        int beginCount = 1005;
-        int endCount = 2010;
+        int beginCount = 1000;
+        int endCount = 2000;
         int integersPerLine = 25;
 
         // added in user argument modification
@@ -42,6 +42,8 @@ public class TwentyFivePerLine {
             }
         }
         */
+
+        // one for loop, one if loop, uses %
         for (int i = beginCount; i <= endCount; i++){
             System.out.print(i+" ");
             if(i % integersPerLine >= integersPerLine-1){
